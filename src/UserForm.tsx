@@ -52,7 +52,7 @@ const UserForm = () => {
       (a: any, b: any) => a.employeeID - b.employeeID
     );
     setRenderData([...isSorted]);
-    let permission = window.prompt("Do you want to add another Record?", "");
+    let permission = window.prompt("Type ok if you want to add another record", "");
     let granted = permission?.toLowerCase();
 
     if (granted === "ok") {
@@ -68,7 +68,7 @@ const UserForm = () => {
     );
     let firstObj = sortedArray[0];
     setRenderData([firstObj]);
-    let permission = window.prompt("Do you want to add another Record?", "");
+    let permission = window.prompt("Type ok if you want to add another record", "");
     let granted = permission?.toLowerCase();
 
     if (granted === "ok") {
@@ -85,7 +85,7 @@ const UserForm = () => {
     let lastObject = sortedArray[0];
     setRenderData([lastObject]);
 
-    let permission = window.prompt("Do you want to add another Record?", "");
+    let permission = window.prompt("Type ok if you want to add another record", "");
     let granted = permission?.toLowerCase();
 
     if (granted === "ok") {
@@ -117,7 +117,7 @@ const UserForm = () => {
       (a: any, b: any) => a.employeeID - b.employeeID
     );
     setRenderData([...isSorted]);
-    let permission = window.prompt("Do you want to add another Record?", "");
+    let permission = window.prompt("Type ok if you want to add another record", "");
     let granted = permission?.toLowerCase();
 
     if (granted === "ok") {

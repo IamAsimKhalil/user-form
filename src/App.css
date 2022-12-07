@@ -49,7 +49,7 @@
 }
 
 .showOption {
-  margin-left: 40px;
+  margin-left: 150px;
 }
 
 .choiceButtons {
@@ -65,12 +65,12 @@
 }
 
 .leftButtons {
-  width: auto;
+  width: 100px;
   margin-left: 40px;
 }
 
 .followingButtons {
-  width: auto;
+  width: 100px;
   margin-left: 5px;
 }
 
