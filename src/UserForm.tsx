@@ -243,7 +243,7 @@ const UserForm = () => {
       </div>
 
       <div className="rightContainer">
-        <h4 className="empList">Emeployee List</h4>
+        <h4 className="empList">Employees List</h4>
         <div className="outputContainer">
           {renderData.map((data, idx) => (
             <div key={idx}>
