@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-Direction: row;
+  width: auto;
+  gap: auto;
+}
+
+.form {
+  
+    display: flex;
+    flex-Direction: column;
+    width: 12rem;
+    margin-Left: 10px;
+    margin-Top: 10px;
+  
+}
+
+.formBorder {
+       
+    display: flex;
+    justify-Content: float;
+    margin-Top: auto;
+    margin-Left: 15px;
+    height: 300px;
+    border: 1px solid #000;
+  
+}
+
+.placeholders {
+  
+    display: flex;
+    flex-Direction: row;
+    width: 12rem;
+    gap: 13px;
+  
+}
+.h4LeftTop {
+   margin-Left: 100px;
+    margin-Top: 5px;
+}
+
+.empData {
+  margin-Left: 75px;
+}
+
+.addButton {
+   width: 6rem;
+   margin-Left: 130px;
+}
+.hr {
+ width: 380px;
+  margin-Left: 15px;
+}
+
+.showOption {
+  margin-Left: 40px;
+}
+
+.choiceButtons {
+display: flex;
+ flex-Direction: column;
+}
+
+.rowButtons {
+
+    display: flex;
+    flex-Direction: row;
+    width: 400px;
+    height: 20px;
+
+}
+
+.leftButtons {
+  width: auto;
+  margin-left: 40px;
+}
+
+.followingButtons {
+  width: auto;
+  margin-left: 5px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+}
+.empList {
+  margin-Left: 100px;
+}
+
+.outputContainer {
+ 
+    display: flex;
+    flex-Direction: column;
+    width: 350px;
+    margin-Left: 15px;
+    margin-Top: 1px;
+    height: auto;
+    min-Height: 200px;
+    border: 1px solid #000;
+
+}
+
+.empDataOutput {
+ 
+    display: flex;
+    flex-Direction: column;
+    width: 300px;
+    margin: 20px;
+    height: 150px;
+    border: 1px solid #000;
+
+}
