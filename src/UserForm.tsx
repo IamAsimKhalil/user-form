@@ -102,7 +102,7 @@ const UserForm = () => {
     let isFound = userData.filter((data) => data.employeeID == aNumber);
 
     setRenderData([...isFound]);
-    let permission = window.prompt("Do you want to add another Record?", "");
+    let permission = window.prompt("Type ok if you want to add another record", "");
     let granted = permission?.toLowerCase();
 
     if (granted === "ok") {
